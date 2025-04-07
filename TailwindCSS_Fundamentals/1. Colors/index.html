@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Colors</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1. Colors With Different Shades -->
+    <!-- https://tailwindcss.com/docs/customizing-colors  -->
+
+    <div class="container bg-sky-500 flex justify-center gap-6 p-5">
+      <div class="bg-purple-50 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 50</div>
+      <div class="bg-purple-100 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 100</div>
+      <div class="bg-purple-200 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 200</div>
+      <div class="bg-purple-300 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 300</div>
+      <div class="bg-purple-400 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 400 </div>
+      <div class="bg-purple-500 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 500</div>
+      <div class="bg-purple-600 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 600</div>
+      <div class="bg-purple-700 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 700</div>
+      <div class="bg-purple-800 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 800</div>
+      <div class="bg-purple-900 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 900</div>
+      <div class="bg-purple-950 text-rose-600 flex justify-center items-center rounded-full h-20 w-20">purple 950</div>
+    </div>
+    
+
+    <!-- 2. Background Colors -->
+    <!-- https://tailwindcss.com/docs/background-color -->
+
+<br><br><br><br>
+
+    <div>
+      <div class="container w-60 bg-yellow-400 pt-20 pl-20 pr-20 pb-20 ">
+        <div><button class="bg-blue-600 text-white px-4 py-2 rounded">Button 1</button></div><br>
+        <div><button class="bg-green-600 text-white px-4 py-2 rounded">Button 2</button></div><br>
+        <div><button class="bg-red-600 text-white px-4 py-2 rounded">Button 3</button></div>
+      </div>
+    </div>
+    
+
+    <!-- Text Underline -->
+    <!-- https://tailwindcss.com/docs/accent-color -->
+    <!-- https://tailwindcss.com/docs/text-decoration-style -->
+
+
+    <br><br><br><br>
+
+    <p class="underline decoration-solid text-lime-500"> Underline decoration-solid</p><br>
+    <p class="underline decoration-double text-indigo-500"> Underline decoration-doube</p><br>
+    <p class="underline decoration-dotted text-fuchsia-500"> Underline decoration-dotted</p><br>
+    <p class="underline decoration-dashed text-rose-500"> Underline decoration-dashed</p><br>
+    <p class="underline decoration-wavy text-violet-500"> Underline decoration-wavy</p><br>
+    <span><input class="accent-black hover:accent-green-500" type="checkbox"> Accent Color</span>
+    <span><input type="checkbox" class="accent-red-500" checked> Checked</span>
+
+
+    <!-- Accent color -->
+    <!-- https://tailwindcss.com/docs/accent-color -->
+
+    <br><br><br><br>
+    <h1 class="underline decoration-dashed"> Accent Color</h1><br>
+    <span><input class="accent-purple-500/25" type="checkbox" checked /> Accent Color-11</span>
+    <span><input class="accent-[#50d71e] ..." type="checkbox" /> Accent Color-2</span>
+
+
+    <!-- Arbitrary colors -->
+    <!-- https://tailwindcss.com/docs/customizing-colors#arbitrary-values -->
+
+    <br><br><br><br>
+
+    <div class="container bg-[#7adfe3] flex flex-col gap-7 w-1/2 items-center p-10">
+      <div class="bg-[#ea2632] p-5 rounded-md">color-#ea2632</div>
+      <div class="bg-[#28e21e] p-5 rounded-md">color-#28e21e</div>
+      <div class="bg-[#233efb] p-5 rounded-md">color-#233efb</div>
+      <div class="bg-[#ef20b8] p-5 rounded-md">color-#ef20b8</div>
+    </div>
+
+  </body>
+</html>

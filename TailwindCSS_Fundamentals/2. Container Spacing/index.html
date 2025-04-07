@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Container & Spacing</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Margin -->
+    <!-- https://tailwindcss.com/docs/margin -->
+
+<div class="flex flex-col gap-10">
+  <div  class=" container bg-stone-400 p-7">
+    <div class="bg-blue-500 text-white w-20 p-4 m-4">Margin 4</div>
+    <div class="bg-green-500 text-white w-20 p-4 mt-6">Margin Top 6</div>
+    <div class="bg-red-500 text-white w-20 p-4 ml-8">Margin Left 8</div>
+    <div class="bg-yellow-500 text-white w-20 p-4 mr-10">Margin Right 10</div>
+</div>
+<div dir="rtl" class="p-7  bg-green-200">
+    <div class="bg-purple-500 text-white w-20 p-4 mb-12">Margin Bottom 12</div>
+    <div class="bg-pink-500 text-white w-20 p-4 mx-16">Margin X-axis 16</div>
+    <div class="bg-gray-700 text-white w-20 p-4 my-20">Margin Y-axis 20</div>
+</div>
+</div>
+  
+
+    <!-- Arbitrary Spacing -->
+     <!-- https://tailwindcss.com/docs/border-spacing#arbitrary-values -->
+
+
+
+
+    <!-- Padding -->
+    <!-- https://tailwindcss.com/docs/padding -->
+
+    <br><br><br><br>
+
+    <div>
+      <div dir="ltr" class="container bg-stone-500 p-7  flex flex-col gap-10 ">
+        <div class="pt-8 bg-purple-500 w-20 rounded-md">pt-8</div>
+        <div class="pb-8 bg-pink-500 w-20 rounded-md">pb-8</div>  
+      </div>
+      <div dir="rtl" class="container bg-stone-500 p-7 flex flex-col gap-10">
+        <div class="pr-8 bg-sky-500 w-20 rounded-md">pr-8</div>
+        <div class="pl-8 bg-red-500 w-20 rounded-md">pl-8</div>
+      </div>
+    </div>
+
+    <!-- https://tailwindcss.com/docs/space -->
+    <!-- Space Between X -->
+
+    <br><br><br><br>
+
+    <div class="container bg-gray-500  w-1/2 flex items-start p-7 space-x-4">
+      <div class="bg-blue-500 w-20 rounded-md p-7" >01</div>
+      <div class="bg-blue-500 w-20 rounded-md p-7">02</div>
+      <div class="bg-blue-500 w-20 rounded-md p-7">03</div>
+    </div>
+    <br><br>
+    <div class="container bg-gray-500 items-center p-7 w-1/2 flex flex-row-reverse space-x-4 space-x-reverse">
+      <div class="bg-blue-500 w-20 rounded-md p-7" >01</div>
+      <div class="bg-blue-500 w-20 rounded-md p-7">02</div>
+      <div class="bg-blue-500 w-20 rounded-md p-7">03</div>
+    </div>
+
+    <!-- Space Between Y -->
+
+    <br><br><br><br>
+    <div class="container bg-gray-500 w-1/2 items-end flex flex-col space-y-8 p-7 ">
+      <div class="bg-blue-500 w-20 rounded-md p-7" >04</div>
+      <div class="bg-blue-500 w-20 rounded-md p-7">05</div>
+      <div class="bg-blue-500 w-20 rounded-md p-7">06</div>
+    </div>
+
+  </body>
+</html>
